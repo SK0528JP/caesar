@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "03SmartFontUI";
+  src: url("font/03SmartFontUI.ttf");
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -6,6 +11,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: '03SmartFontUI', sans-serif;
 }
 
 .container {
