@@ -4,7 +4,7 @@ function encrypt() {
     var result = document.getElementById("result");
 
     if (!message || isNaN(shift)) {
-        alert("Please enter a message and a valid shift value.");
+        alert("フォーマットテキスト・鍵番号を入力してください。");
         return;
     }
 
@@ -18,7 +18,7 @@ function decrypt() {
     var result = document.getElementById("result");
 
     if (!message || isNaN(shift)) {
-        alert("Please enter a message and a valid shift value.");
+        alert("フォーマットテキスト・鍵番号を入力してください。");
         return;
     }
 
